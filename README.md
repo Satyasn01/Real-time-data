@@ -67,7 +67,7 @@ We welcome contributions to this project! If you have suggestions to improve thi
 ## Contributors
 
 - **[satya]** - *Initial work* - [satyasn01](https://github.com/satyasn01)
-- **Anjali** - *Contributed to various parts of the project* -
+- **Anjali** - *Contributed to various parts of the project* - [anjali-vaish] https://github.com/anjali-vaish
 
 ## License
 
