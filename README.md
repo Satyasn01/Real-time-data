@@ -71,7 +71,7 @@ We welcome contributions to this project! If you have suggestions to improve thi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.txt) file for details.
 
 ## Acknowledgments
 
