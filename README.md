@@ -32,44 +32,49 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Satyasn01/Real-time-data.git
+   git clone https://github.com/satyasn01/Real-time-data.git
+   cd Real-time-data
    ```
+
 2. **Set up the Node.js WebSocket server**
    - Navigate to the server directory:
      ```bash
-     cd path/to/your/server
-     ```
-   - Install necessary packages:
-     ```bash
+     cd server
      npm install
-     ```
-   - Start the server:
-     ```bash
      node server.js
      ```
 
 3. **Run the VB.NET Backend**
-   - Open the VB.NET project in Visual Studio.
-   - Build and run the application to start processing and sending data.
+   - Open the VB.NET project in Visual Studio located under the `backend` folder.
+   - Build and run the application.
 
 4. **Launch the React Frontend**
-   - Navigate to the React application directory:
+   - Navigate back to the root directory and then to the client directory:
      ```bash
-     cd path/to/your/react-app
-     ```
-   - Install dependencies:
-     ```bash
+     cd ../client
      npm install
-     ```
-   - Start the React application:
-     ```bash
      npm start
      ```
 
 ## Usage
 
-Once all components are running, the React application will display real-time data received from the VB.NET backend via the WebSocket server. This system can be adapted for various real-time data processing applications by modifying the data handling and processing logic in the VB.NET backend.
+Once all components are running, the React application will display real-time data received from the VB.NET backend via the WebSocket server. This setup demonstrates how different technologies can work together in real-time data processing and display.
 
 ## Contributing
 
-We welcome contributions to this project! If you have suggestions to improve this, please fork the repository and create a pull request. You can also open an issue with the tag "enhancement".
+We welcome contributions to this project! If you have suggestions to improve this, please fork the repository and create a pull request. You can also open an issue with the tag "enhancement". Please follow the code of conduct in this project.
+
+## Contributors
+
+- **[satya]** - *Initial work* - [satyasn01](https://github.com/satyasn01)
+- **Anjali** - *Contributed to various parts of the project* -
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- WebSocket4Net for providing WebSocket support in VB.NET
+- Node.js community for the robust server-side platform
+- React community for the powerful frontend library
